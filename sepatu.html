@@ -8,6 +8,51 @@
         <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
         <link rel="stylesheet" href="assets/css/styles.css">
         <title>SEPATU (UTS)</title>
+
+        <style>
+            .button {
+              border: none;
+              color: white;
+              padding: 16px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              margin: 4px 2px;
+              transition-duration: 0.4s;
+              cursor: pointer;
+              margin-left: 50%;
+            }
+            
+            .button1 {
+              background-color: rgb(8, 9, 15); 
+              color: rgb(255, 255, 255); 
+              border: 2px solid #ffffff;
+            }
+            
+            .button1:hover {
+              background-color: #a4c6fa;
+              color: white;
+            }
+            
+            .button2 {
+              background-color: white; 
+              color: black; 
+              border: 2px solid #008CBA;
+            }
+            
+            .button2:hover {
+              background-color: #008CBA;
+              color: white;
+            }
+            .container {
+              width: 1500px;
+              margin: 0 auto;
+              background-color:rgb(255, 255, 255);
+              fill-opacity: 0.5;
+           }
+            
+            </style>
     </head>
 
 <body>
@@ -23,16 +68,16 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <h5 class="nav-link" href="#"><i class=" " aria-hidden="true"></i> KEMEJA</h5>
+                        <a class="nav-link" href="kemeja.html"><i class=" " aria-hidden="true"></i> KEMEJA</a>
                     </li>
                     <li class="nav-item">
-                        <h5 class="nav-link" href="#"><i class=" " aria-hidden="true"></i> SEPATU</h5>
+                        <a class="nav-link" href="sepatu.html"><i class=" " aria-hidden="true"></i> SEPATU</a>
                     </li>
                     <li class="nav-item">
-                        <h5 class="nav-link" href="#"><i class=" " aria-hidden="true"></i> JAKET</h5>
+                        <a class="nav-link" href="jaket.html"><i class=" " aria-hidden="true"></i> JAKET</a>
                     </li>
                     <li class="nav-item">
-                        <h5 class="nav-link" href="#"><i class=" " aria-hidden="true"></i> CELANA</h5>
+                        <a class="nav-link" href="celana.html"><i class=" " aria-hidden="true"></i> CELANA</a>
                     </li>
     
                 </ul>
@@ -40,9 +85,7 @@
         </div>
     </nav>
     <!--NAVBAR END-->
-    
- 
-        <button class="button button1">PESAN</button>
+
     
         <p> </p>
     </main>
@@ -50,31 +93,34 @@
     <main class="container-fluid">
 
         <div class="row py-4">
-
+       <p> </p>
             <center><h1>SHOES</h1></center>
 
-            <div class="col-md-4 py-2">
+            <div class="row">
+
+            <div class="col-md-4 py-2 g-2">
                 <div class="container border py-5"> 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a officiis deserunt officia q
-                        uasi magnam natus accusamus, eaque dolor doloribus dolore incidunt inventore aperiam nobis, eve
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Voluptates a officiis deserunt officia q
+                        uasi magnam natus <br>accusamus, eaque dolor doloribus dolore incidunt inventore <br>aperiam nobis, eve
                         niet aspernatur perferendis sequi eum?</p>
-                  </div>
+                </div>
                 
             </div>
 
-            <div class = "col-md-8 py-2">
+            <div class = "col-md-4 py-2 g-2">
 
-                <div class="container border py-5"> 
+                <div class="container border col-4 py-5"> 
                     <div class="col-md-fluid">
                         <img src="sepatu1.jpg" style="width:300px;height:300px;"> 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis repellat voluptas perfe
-                            rendis earum nemo totam dolorum corporis, natus iusto illo quis doloremque ipsum. Accusantium,
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis repellat voluptas perfe <br>
+                            rendis earum nemo totam dolorum corporis, natus iusto illo quis doloremque ipsum.<br> Accusantium,
                              aspernatur repellat? Repellat, quidem eos. </p>
                     </div>
+                    <button class="button button1">PESAN</button>
                 </div>
-
             </div>
-           
+
+           </div>
     </main>
 
     <!--FOOTER TOP-->
