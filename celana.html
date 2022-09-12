@@ -57,9 +57,35 @@
         margin-right: 500px;
         margin-top: 30px;
       }
+
       p {
         margin-right: 350px;
       }
+
+      * {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  background: orange;
+}
+
+html, body
+{ width:100%}
     </style>
         
 </head>
@@ -98,14 +124,15 @@
 
         <div class="container-fluid py-5">
         
-        <main class="container bg-light text-dark">
+        <main class="container-fluid bg-light text-dark">
           <div class="row">
-            <div class="col-12 py-4 ">
+            <div class="py-4 "style="padding-left: 200px;">
               <img src="celana2.jpg" style="float: left; margin-left: 45px; width: 200px; height: 200px; border-radius: 50%; position:absolut; left:5;" class="g-md-5" />
                 <p> </p>
-              <div>
-                <h1>PANTS</h1>
-                <p >Pants are outer garments that cover the waist to the ankles, sometimes only up to the knees, which wrap around 
+                 
+              <div style="padding-left: 200px;">
+                <h1 style="padding-left: 100px;" >PANTS</h1>
+                <p style="padding-left: 100px;">Pants are outer garments that cover the waist to the ankles, sometimes only up to the knees, which wrap around 
                   the torso separately, mainly men's clothing.</p>
               </div>
             </div>
@@ -141,7 +168,7 @@
 
 
         <!--FOOTER TOP-->
-        <footer>
+        <footer class="site-footer">
     <div class="container-fluid" style="background: white;">
         <div class="row p-4">
             <hr>
